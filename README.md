@@ -9,7 +9,7 @@ AutoForm is a Meteor package that adds UI components and helpers to easily creat
 
 AutoForm 5.0 is now available and has many compatibility breaks, but also many fixes and improvements. This release includes a lot of internal refactoring, so it's a good idea to thoroughly test all your forms after updating to 5.0+. Be sure to check out the [change log](https://github.com/aldeed/meteor-autoform/blob/master/CHANGELOG.md) for full details.
 
-**Add-on Package Authors**: Please test your package against AutoForm 5.0, and then release an update in which you change your `api.use` to `api.use('aldeed:autoform@4.0.0 || 5.0.0');`
+**Add-on Package Authors**: Please test your package against AutoForm 5.0, and then release an update in which you change your `api.use` to `api.use('thebakery:autoform@4.0.0 || 5.0.0');`
 
 ## Table of Contents
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
@@ -92,7 +92,7 @@ AutoForm 5.0 is now available and has many compatibility breaks, but also many f
 In a Meteor app directory, enter:
 
 ```
-$ meteor add aldeed:autoform
+$ meteor add thebakery:autoform
 ```
 
 ### Community Add-On Packages
@@ -103,8 +103,8 @@ $ meteor add aldeed:autoform
 
 Dates and times:
 
-* [aldeed:autoform-bs-datepicker](https://atmospherejs.com/aldeed/autoform-bs-datepicker)
-* [aldeed:autoform-bs-datetimepicker](https://atmospherejs.com/aldeed/autoform-bs-datetimepicker)
+* [thebakery:autoform-bs-datepicker](https://atmospherejs.com/aldeed/autoform-bs-datepicker)
+* [thebakery:autoform-bs-datetimepicker](https://atmospherejs.com/aldeed/autoform-bs-datetimepicker)
 * [miguelalarcos:afwrap-xdatetime](https://atmospherejs.com/miguelalarcos/afwrap-xdatetime)
 * [notorii:autoform-datetimepicker](https://atmospherejs.com/notorii/autoform-datetimepicker)
 * [lukemadera:autoform-pikaday](https://atmospherejs.com/lukemadera/autoform-pikaday)
@@ -114,8 +114,8 @@ Dates and times:
 
 Selects:
 
-* [aldeed:autoform-select2](https://atmospherejs.com/aldeed/autoform-select2)
-* [aldeed:autoform-bs-button-group-input](https://atmospherejs.com/aldeed/autoform-bs-button-group-input)
+* [thebakery:autoform-select2](https://atmospherejs.com/aldeed/autoform-select2)
+* [thebakery:autoform-bs-button-group-input](https://atmospherejs.com/aldeed/autoform-bs-button-group-input)
 * [comerc:autoform-selectize](https://atmospherejs.com/comerc/autoform-selectize)
 * [vazco:universe-autoform-select](https://atmospherejs.com/vazco/universe-autoform-select)
 * [lukemadera:autoform-autocomplete](https://atmospherejs.com/lukemadera/autoform-autocomplete)
