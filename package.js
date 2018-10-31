@@ -2,7 +2,7 @@ Package.describe({
   name: "thebakery:autoform",
   summary: "Lite version of autoform based on 5.8.1. No bootstrap templates + moment included as NPM dependency.",
   git: "https://github.com/bakery/meteor-autoform.git",
-  version: "5.8.2"
+  version: "5.8.3"
 });
 
 Package.onUse(function(api) {
